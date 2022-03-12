@@ -27,6 +27,7 @@ int main()
     {
     temp=volume;
     ComputeVolume(length,width,i,volume);
+    cout<<volume<<endl;
     if(volume>temp)
     {
 
@@ -34,6 +35,7 @@ int main()
     }
     
     }
+    ComputeVolume(length,width,side,volume);
    
 
     return 0;
