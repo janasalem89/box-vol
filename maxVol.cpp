@@ -9,6 +9,10 @@ void ComputeVolume(int length, int width,int height, int& volume ){
         
 }
 
+
+string printResult(int length, int width, int side, int volume){
+    
+}
 int main()
 {
    int length;
@@ -36,7 +40,6 @@ int main()
     
     }
     ComputeVolume(length,width,side,volume);
-   
 
     return 0;
 }
