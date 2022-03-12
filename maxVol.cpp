@@ -13,7 +13,6 @@ void ComputeVolume(int length, int width,int height, int& volume ){
 string printResult(int length, int width, int side, int volume){
         
         string s= "Box length = "+to_string(length)+ "\n"+ "Box width = "+to_string(width)+ "\n"+ "Side dimension = "+to_string(side)+"\n"+"Max volume = "+to_string(volume);
-        
         return s;
 }
 int main()
@@ -30,19 +29,22 @@ int main()
    
    int side;
    int temp;
+
     for(int i=1;i<length && i<width;i++)
     {
+
     temp=volume;
+
     ComputeVolume(length,width,i,volume);
+
     if(volume>temp)
     {
-
         side=i;
     }
     
     }
-    ComputeVolume(length,width,side,volume);
-   
+
+   ComputeVolume(length,width,side,volume);
    cout<<printResult(length,width,side,volume);
 
     return 0;
