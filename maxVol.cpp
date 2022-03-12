@@ -21,6 +21,14 @@ int main()
    
    int volume=0;
    
+   int side;
+   int temp;
+    for(int i=1;i<length && i<width;i++)
+    {
+  
+    
+    }
+   
 
     return 0;
 }
