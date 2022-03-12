@@ -11,7 +11,10 @@ void ComputeVolume(int length, int width,int height, int& volume ){
 
 
 string printResult(int length, int width, int side, int volume){
-    
+        
+        string s= "Box length = "+to_string(length)+ "\n"+ "Box width = "+to_string(width)+ "\n"+ "Side dimension = "+to_string(side)+"\n"+"Max volume = "+to_string(volume);
+        
+        return s;
 }
 int main()
 {
