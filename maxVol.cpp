@@ -43,6 +43,8 @@ int main()
     
     }
     ComputeVolume(length,width,side,volume);
+   
+   cout<<printResult(length,width,side,volume);
 
     return 0;
 }
