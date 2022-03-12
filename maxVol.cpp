@@ -25,7 +25,13 @@ int main()
    int temp;
     for(int i=1;i<length && i<width;i++)
     {
-  
+    temp=volume;
+    ComputeVolume(length,width,i,volume);
+    if(volume>temp)
+    {
+
+        side=i;
+    }
     
     }
    
